@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+button {
+  cursor: pointer;
+}
+button[disabled="_true"] {
+  background-color: #28c523;
+}
+.book-info {
+  width: 400px;
+}
+.book-info h2 {
+  margin-bottom: 7px;
+  text-transform: capitalize;
+}
+.book-info .contnet {
+  color: #226be6;
+  font-size: 20px;
+  line-height: 1.6;
+  text-transform: capitalize;
+}
+.book-info .contnet p {
+  font-weight: 700;
+}
+.book-info .contnet p span {
+  color: #000;
+}
+.book-info .no-book {
+  background-color: gray;
+  border-radius: 19px;
+  font-size: 22px;
+  padding: 7px 10px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.book-list-content {
+  width: 400px;
+}
+.book-list-content h2 {
+  margin-bottom: 7px;
+  text-transform: capitalize;
+}
+.book-list-content .book-box {
+  border: 1px solid #aaa;
+  font-size: 20px;
+}
+.book-list-content .book-box > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.book-list-content .book-box > div:not(:last-of-type) {
+  border-bottom: 1px solid #aaa;
+}
+.book-list-content .book-box > div .btns button {
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px;
+}
+.book-list-content .book-box > div .btns .read {
+  background-color: #226be6;
+  margin-right: 5px;
+}
+.book-list-content .book-box > div .btns .del {
+  background-color: #f31a2d;
+}
+.book-main {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  margin: auto;
+  width: 90%;
+}
+.form-content {
+  box-shadow: 0 0 10px 5px #aaa;
+  display: flex;
+  flex-direction: column;
+  margin: 15px auto;
+  padding: 15px;
+  row-gap: 5px;
+  width: 50%;
+}
+.form-content .form-title,
+.form-content .label {
+  text-transform: capitalize;
+}
+.form-content .input {
+  font-size: 18px;
+  padding: 5px;
+  width: 90%;
+}
+.form-content textarea {
+  height: 50px;
+}
+.form-content button {
+  background-color: #226be6;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.header-content {
+  background-color: #2f3239;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.header-content .logo {
+  color: #b1b6ba;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.header-content .log {
+  background-color: transparent;
+  border: 2px solid #226be6;
+  color: #226be6;
+  font-size: 20px;
+  padding: 0 7px;
+}
+/*# sourceMappingURL=main.3f04f1aa.css.map*/
